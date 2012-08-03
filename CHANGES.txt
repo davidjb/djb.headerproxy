@@ -1,0 +1,10 @@
+Changelog
+=========
+
+0.1-dev (unreleased)
+--------------------
+
+- Initial creation of proxy that uses header-based configuration.
+  [davidjb]
+- Package created using templer
+  [davidjb]
