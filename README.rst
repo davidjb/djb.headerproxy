@@ -23,7 +23,7 @@ as ``HTTP_PROXY_FOOBAR`` (noting dashes to underscores, and replacement
 of ``X`` with ``HTTP``).  You can make this mapping happen thusly::
 
     [app:proxy]
-    use = egg:djb.headerproxy#header_proxy
+    use = egg:djb.headerproxy
     force_host = HTTP_PROXY_FORCE_HOST
     force_scheme = HTTP_PROXY_FORCE_SCHEME
 

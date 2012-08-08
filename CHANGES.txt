@@ -4,7 +4,9 @@ Changelog
 0.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Add a ``main`` entry point as well - this is just an alias to the same
+  proxy app.
+  [davidjb]
 
 
 0.1 (2012-08-03)

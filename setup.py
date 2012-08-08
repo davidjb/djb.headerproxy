@@ -43,6 +43,7 @@ setup(name='djb.headerproxy',
       entry_points="""
       # -*- Entry points: -*-
       [paste.app_factory]
+      main = djb.headerproxy:make_header_proxy
       header_proxy = djb.headerproxy:make_header_proxy
       """,
       )
