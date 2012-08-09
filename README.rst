@@ -28,7 +28,9 @@ of ``X`` with ``HTTP``).  You can make this mapping happen thusly::
     force_scheme = HTTP_PROXY_FORCE_SCHEME
 
 The above example is overly verbose, however, as we already default to 
-using these specific headers.
+using these specific headers. This does demonstrate how you can customise
+this behaviour to suit you -- for instance, if your front-end automatically
+provides some headers, you can configure the mapping accordingly.
 
 Warning
 -------
